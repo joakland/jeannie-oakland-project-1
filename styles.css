@@ -215,6 +215,7 @@ form {
 }
 
 footer{
+    padding-top: 5px;
     text-decoration: wavy underline;
     text-align: center;
 }
