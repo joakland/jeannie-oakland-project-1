@@ -12,10 +12,13 @@ h2 {
 }
 
 main-background {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;      
+    height: 100vh;     
+    object-fit: cover; 
+    z-index: -1;
 }
 
 header {
