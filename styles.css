@@ -152,6 +152,9 @@ section.home-main, p {
     font-size: 30px;
     text-align: center;
     font-family: Arial, sans-serif;
+    background-image: url('sunset.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 form {
