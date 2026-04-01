@@ -11,13 +11,13 @@ h2 {
     font-size: 40px;
 }
 
-main-background {
-    position: fixed;  
-    top: 0;
-    left: 0;
-    width: 100vw;      
-    height: 100vh;     
-    object-fit: cover; 
+body {
+    background-image: url('sunset.jpeg');
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     z-index: -1;
 }
 
