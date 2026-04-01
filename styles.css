@@ -11,15 +11,6 @@ h2 {
     font-size: 40px;
 }
 
-body {
-    background-image: url('sunset.jpeg');
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     position: sticky;
     top: 0;
@@ -72,6 +63,7 @@ span {
     z-index: -1;
     opacity: 0.5;
     object-fit: cover;
+    max-width: 100%;
 }
     
 @media (min-aspect-ratio: 16/9) {
